@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1>TUTORIAL FOR FORMS IN HTML</h1>
+    <hr>
+    <br>
+    <form action="backend.php">
+        <div>
+            <label for="name">NAME</label>   
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">ROLE</label>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="date">DATE</label>
+            <input type="date" name="myDATE" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="bonus">BONUS</label>
+            <input type="number" name="myBONUS" id="bonus">
+        </div>
+        <br>
+        <div>
+            <label for="eligible">Are You Eligible? </label>
+            <input type="checkbox" name="myEligible" id="eligible">
+        </div>
+        <br>
+        <div>
+            <label for="gender">GENDER: </label>
+            Male<input type="radio" name="myGender" id="gender"> Female <input type="radio" name="myGender" id="gender"> Other <input type="radio" name="myGender" id="gender"> 
+        </div>
+        <br>
+        <div>
+            Enter something: <br><textarea name="textarea" id="areaTEXT" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+
+            Select Car: <select name="myCar" id="car">
+
+                <option value="merc">MERCEDEZ</option>
+                <option value="bmw">BMW</option>
+                <option value="dsr">DESIRE</option>
+                <option value="suv">SUV 700</option>
+            </select>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </div>
+    </form>
+</body>
+</html>
