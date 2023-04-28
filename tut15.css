@@ -1,0 +1,24 @@
+p{
+    color: blue;
+    background-color: aqua;
+    border: 3px solid red;
+}
+
+#idSel{
+    color: burlywood;
+    background-color: blue;
+}
+
+.classSel{
+    color: brown;
+    background-color: pink;
+}
+
+.demoCls{
+    border: 5px solid rebeccapurple;
+}
+
+footer, span{
+    color: hotpink;
+    background-color: yellowgreen;
+}
