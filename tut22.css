@@ -1,0 +1,48 @@
+.container {
+    border: 10px solid royalblue;
+    margin: auto;
+    padding: 5%;
+    background-color: rgb(172, 255, 227);
+    width: 600px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+a {
+    background-color: rgb(178 174 255);
+    text-decoration: none;
+    font-size: large;
+}
+
+a:hover{
+    background-color: rgb(172, 255, 227);
+    color: #09000b;
+    font-style: bold;
+    border: 5px solid red;
+}
+
+a:visited{
+    background-color: yellow;
+}
+
+.btn{
+    background-color: rgb(178 174 255);
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(172, 255, 227);
+    color: #09000b;
+    border: 5px solid red;
+    font-style: bold;
+}

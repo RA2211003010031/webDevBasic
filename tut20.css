@@ -1,0 +1,23 @@
+/* * is the universal selector to change anything. */
+*{
+    box-sizing: border-box; /*Box sizing dont let the width get changed due to increase in padding. It will adjust itself using length.*/
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: #2d2350;
+}
+.container{
+    background-color: #b6b6f5;
+    border: 3px solid #2845a3;
+    /* padding: 50px; */
+    /* padding is directly done by padding = top right botton left */
+    /* padding: 30px 40px 30px 40px; */
+    /* or padding = y(top/botton) and x(left/right) */
+    padding : 30px 40px;
+    margin: 20px;
+    border-radius: 100px;
+    width : 700px;
+    
+}

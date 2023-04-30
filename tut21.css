@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.item{
+    border: 5px solid #7402ff;
+    border-radius: 38px;
+    margin: 20px auto;
+    padding: 4px 26px;
+    background: #ffcbb8;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.container{
+    border: 14px solid rgb(0, 229, 255);
+    width: 847px;
+    /* margin: 50px 574px; */
+    margin: auto;
+    background-color: #d9d8c5;
+
+}
+
+ #fruit{
+    float: left;
+    width: 48%;
+}
+
+ #computer{
+    float: right;
+    width: 48%;
+}
+
+#car{
+    clear: both;
+    width: 98%;
+}  
+
+p,h3{
+    text-align: center;
+}
+
+h1{
+    margin: 50px auto;
+    width: 364px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
