@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* color: rgb(117, 57, 57); */
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Bruno Ace SC', cursive;
+    height: 100vh;
+    width: 100%;
+    background-image: url('image/gymMAN.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    text-align: center;
+    color: #6bfaed;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+header{
+    margin: 20px;
+}
+
+#left{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    /* border: 2px solid red; */
+    top: 40px;
+}
+
+#left img{
+    width: 128px;
+    filter: invert(100%);
+}
+
+#left div{
+    text-align: center;
+    font-size: 9px;
+    margin: 9px;
+    color: white;
+}
+
+#mid{
+    display: block;
+    /* border: 2px solid red; */
+    width: 38%;
+    margin: 43px auto;
+}
+
+#navBar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+#navBar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+#navBar li a:hover{
+    text-decoration: underline;
+    color: rgb(60, 61, 41);
+}
+
+#right{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 16px;
+    top: 42px;
+}
+
+.btn{
+    color: #97ffc5;
+    background-color: rgb(33 47 98);
+    margin: 49px 0px;
+    padding: 1px 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.entry{
+    border: 2px solid rgb(138, 165, 150);
+    position: absolute;
+    right: 70px;
+    top: 273px;
+    /* margin: 165px 1150px; */
+    padding: 84px;
+    width: 34%;
+    border-radius: 35px;
+}
+
+.inputForm input{
+    display: block;
+    text-align: center;
+    width: 473px;
+    padding: 6px;
+    /* border: 2px solid white; */
+    margin: 14px auto;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
+.entry h2{
+    text-align: center;
+    color: #8ffac4;
+}
+
+.inputForm button{
+    display: block;
+    padding: 14px 32px;
+    width: 75%;
+    background-color: #03A9F4;
+    margin: 26px auto;
+}
+
+.inputForm button:hover{
+    cursor: pointer;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(211, 255, 50);
+}
